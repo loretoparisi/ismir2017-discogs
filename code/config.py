@@ -5,10 +5,10 @@
 import yaml
 import seaborn
 
-dump_url = 'https://discogs-data.s3-us-west-2.amazonaws.com/data/2017/discogs_20170401_releases.xml.gz'
-dump_gz = '../data/discogs_20170401_releases.xml.gz'
-dump_json = '../data/discogs_20170401_releases.json.dump'
-dump_pandas = '../data/discogs_20170401_releases.100.hdf'
+dump_url = 'https://discogs-data.s3-us-west-2.amazonaws.com/data/2018/discogs_20180101_releases.xml.gz'
+dump_gz = '/Volumes/Dataset/discogs/discogs_20180101_releases.xml.gz'
+dump_json = '/Volumes/Dataset/discogs/discogs_20180101_releases.json.dump'
+dump_pandas = '/Volumes/Dataset/discogs/discogs_20180101_releases.100.hdf'
 
 results_stats = '../results/data_stats.pickle'
 results_duration = '../results/data_duration.pickle'

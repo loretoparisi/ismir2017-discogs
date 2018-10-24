@@ -1,6 +1,8 @@
 hurry.filesize
-yaml
+pyyaml
 xmltodict
 pandas
 tables
 
+seaborn
+matplotlib

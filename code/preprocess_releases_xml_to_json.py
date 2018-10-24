@@ -154,7 +154,7 @@ if os.path.isfile(dump_gz):
     print("Dump file already found (%s)" % dump_gz)
 else:
     print("Downloading Discogs releases data dump archive (%s)" % dump_url)
-    urllib.URLopener().retrieve(url, dump_gz, reporthook=download_progress)
+    urllib.URLopener().retrieve(dump_url, dump_gz, reporthook=download_progress)
     print("")
 
 if os.path.isfile(dump_json):
