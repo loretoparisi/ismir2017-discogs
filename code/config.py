@@ -34,7 +34,7 @@ IGNORE_GENRES = ["Brass & Military",
 
 # Some global parameters for this study
 START_YEAR = 1970
-END_YEAR = 2016
+END_YEAR = 2017
 PLOT_TITLES = True
 PLOT_LARGE = False
 
