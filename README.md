@@ -12,6 +12,11 @@ See [**examples of metadata analysis that can be done**](examples/) using metada
 ## Disclaimer
 Adapted by [Loreto Parisi](https://github.com/dbogdanov/ismir2017-discogs) from https://github.com/dbogdanov/ismir2017-discogs
 
+## How to Run from Notebooks
+- First configure the release in `config.py`
+- Run the Notebook `preprocess` to import data from xml to json format.
+- Run the Notebook `preprocess_releases_xml_to_json` to inject json to Pandas data frame.
+- Run the experiments Notebook `experiments`.
 
 ## Pre-processed dataset of release metadata from Discogs
 - Pre-processed release metadata dump in [hdf format](https://drive.google.com/file/d/0B9efYsv7Y7gpWmVuUWI0RXQtUFE/view?usp=sharing) (pandas DataFrame).
