@@ -9,6 +9,8 @@ Please, cite this paper if you are using our dataset and code.
  
 See [**examples of metadata analysis that can be done**](examples/) using metadata from Discogs.
 
+## Disclaimer
+Adapted by [Loreto Parisi](https://github.com/dbogdanov/ismir2017-discogs) from https://github.com/dbogdanov/ismir2017-discogs
 
 
 ## Pre-processed dataset of release metadata from Discogs
@@ -20,7 +22,7 @@ See [**examples of metadata analysis that can be done**](examples/) using metada
 This is the code that we used to create our release dataset and for our example studies presented in the ISMIR-2017's paper.
 
 ### Dependencies
-Run ```pip install -r requirements.txt``` to install required dependencies.
+Run ```cd code; pip install -r requirements.txt``` to install required dependencies.
 
 ### Configuration
 - ```config.py```: basic configuration script, contains some global variables (like filenames) used by other scripts
